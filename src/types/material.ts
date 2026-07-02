@@ -1,0 +1,21 @@
+export type Material = {
+  slug: string;
+  name: string;
+  category: "базовый" | "инженерный" | "гибкий" | "композитный" | "растворимый";
+  difficulty: 1 | 2 | 3 | 4 | 5;
+  strength: 1 | 2 | 3 | 4 | 5;
+  heatResistance: 1 | 2 | 3 | 4 | 5;
+  flexibility: 1 | 2 | 3 | 4 | 5;
+  smellToxicity: string;
+  needsEnclosure: boolean;
+  nozzleTemp: string;
+  bedTemp: string;
+  storage: string;
+  uses: string[];
+  pros: string[];
+  cons: string[];
+  commonProblems: string[];
+  tags: string[];
+  beginnerNote: string;
+  advancedNote: string;
+};
